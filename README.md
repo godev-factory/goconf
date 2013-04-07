@@ -2,18 +2,18 @@ goconf
 ======
 Configuration file parser for the Go Programming Language.
 =========================================================
-Clone of  https://code.google.com/p/goconf/  Little refactoring , added int64 and uint64 types
+Clone of  https://code.google.com/p/goconf/  Little refactoring , added ``int64`` and ``uint64`` types
 
 Installation
 ============
-You can just link your program to goconf, but it is suggested that you install this library in $GOROOT with go install.
+You can just link your program to goconf, but it is suggested that you install this library in ```$GOROOT`` with go install.
 
 Go install
 
 Go install will automatically fetch the latest code and it will even update it for you if you tell it to. As soon as the library stabilizes it will only fetch the latest stable release.
 
 go install github.com/postfix/goconf
-Then, when you want to use it you just need to import "github.com/postfix/goconf"
+Then, when you want to use it you just need to ``import "github.com/postfix/goconf"``
 
 Using It
 ==========
@@ -22,6 +22,7 @@ You can use goconf by putting the correct import statement (depending on which o
 NOTE: All section names and options are case insensitive. All values are case sensitive.
 
 Example 1
+=========
 Config
 ```
 host = something.com
