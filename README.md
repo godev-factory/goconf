@@ -12,7 +12,7 @@ Go install
 
 Go install will automatically fetch the latest code and it will even update it for you if you tell it to. As soon as the library stabilizes it will only fetch the latest stable release.
 
-go install github.com/postfix/goconf
+```go install github.com/postfix/goconf``
 Then, when you want to use it you just need to ``import "github.com/postfix/goconf"``
 
 Using It
